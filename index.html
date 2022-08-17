@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml"
+    xmlns:o="urn:schemas-microsoft-com:office:office">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&display=swap"
+        rel="stylesheet">
+    <title></title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            margin: 0;
+            background: #cccccc;
+        }
+
+        table {
+            border-spacing: 0;
+        }
+
+        td {
+            padding: 0%;
+        }
+
+        img {
+            border: 0;
+        }
+
+        .wrapper {
+            width: 100%;
+            table-layout: fixed;
+            background-color: #cccccc;
+            padding: 50px 0px;
+        }
+
+        .main {
+            width: 100%;
+            max-width: 600px;
+            margin: 0px auto;
+            background-color: #ffffff;
+            border-spacing: 0;
+            font-family: 'Poppins', sans-serif;
+            color: #171a1b;
+        }
+
+        .two-columns,
+        .three-columns {
+            text-align: center;
+            font-size: 0;
+        }
+
+        .two-columns .columns {
+            width: 100%;
+            max-width: 300px;
+            display: inline-block;
+            vertical-align: middle;
+            text-align: center;
+        }
+
+        .three-columns .columns {
+            width: 100%;
+            max-width: 200px;
+            padding: 15px 0px 25px;
+            display: inline-block;
+        }
+
+        .three-columns .padding {
+            padding: 15px;
+        }
+
+        .three-columns .content {
+            font-size: 15px;
+            line-height: 20px;
+        }
+
+        .two-columns.last {
+            padding: 15px 0px;
+        }
+
+        .two-columns.last .padding {
+            padding: 20px;
+        }
+
+        .two-columns.last .columns {
+            vertical-align: top;
+        }
+
+        .two-columns.last .content {
+            font-size: 15px;
+            text-align: left;
+        }
+
+        .two-columns.last .button {
+            background-color: #ffffff;
+            color: #171a1b;
+            display: inline-block;
+            padding: 10px 30px;
+            border-radius: 6px;
+            text-decoration: none;
+        }
+
+        .icons a {
+            display: inline-block;
+            margin: 0px 5px;
+        }
+
+        @media (max-width:576px) {
+            .logo {
+                width: 130px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <center class="wrapper">
+        <table class="main" width="100%">
+
+            <!-- Top Border -->
+            <tr>
+                <td height="8" style="background-color:#171a1b; "></td>
+            </tr>
+
+            <!-- Logo Section -->
+            <tr>
+                <td style="padding:15px 0px 10px;">
+                    <table width="100%">
+                        <tr>
+                            <td style="padding:0px 15px">
+                                <a href="#" style="display:block; font-size: 0;">
+                                    <img src="./images/logo.png" alt="Logo" width="180" class="logo">
+                                </a>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+            <!-- Banner Image -->
+            <tr>
+                <td style="font-size: 0;">
+                    <a href="#">
+                        <img src="./images/banner.png" width="600" style="max-width: 100%;" alt="">
+                    </a>
+                </td>
+            </tr>
+
+            <!-- Three columns Section -->
+            <tr>
+                <td>
+                    <table width="100%">
+                        <tr>
+                            <td class="three-columns">
+                                <table class="columns">
+                                    <tr>
+                                        <td class="padding">
+                                            <table class="content">
+                                                <tr>
+                                                    <td>
+                                                        <a href="#"> <img src="./images/ecomerce.png" width="80px"
+                                                                alt=""></a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p
+                                                            style="font-size: 17px; font-weight: bold; padding: 15px 0px 10px;">
+                                                            E-commerce</p>
+                                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                                            Corrupti, ducimus.</p>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <table class="columns">
+                                    <tr>
+                                        <td class="padding">
+                                            <table class="content">
+
+                                                <tr>
+                                                    <td>
+                                                        <a href="#"> <img src="./images/letter.png" width="80px"
+                                                                alt=""></a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p
+                                                            style="font-size: 17px; font-weight: bold; padding: 15px 0px 10px;">
+                                                            Web Design</p>
+                                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                                            Corrupti, ducimus.</p>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <table class="columns">
+                                    <tr>
+                                        <td class="padding">
+                                            <table class="content">
+
+                                                <tr>
+                                                    <td>
+                                                        <a href="#"> <img src="./images/pc.png" width="80px" alt=""></a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p
+                                                            style="font-size: 17px; font-weight: bold; padding: 15px 0px 10px;">
+                                                            HTML - Email</p>
+                                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                                            Corrupti, ducimus.</p>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+            <!-- Two Columns Section -->
+            <tr>
+                <td style="background-color: #26292b; color:#ffffff">
+                    <table width="100%">
+                        <tr>
+                            <td class="two-columns last">
+                                <table class="columns">
+                                    <tr>
+                                        <td class="padding">
+                                            <table class="content">
+                                                <tr>
+                                                    <td>
+                                                        <a href="#"><img src="./images/work-3.jpg" width="260"
+                                                                height="auto" alt=""></a>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <table class="columns">
+                                    <tr>
+                                        <td class="padding">
+                                            <table class="content">
+                                                <tr>
+                                                    <td>
+                                                        <p
+                                                            style="font-weight: bold; font-size: 18px; padding-bottom: 15px;">
+                                                            Create Custom
+                                                            Design</p>
+                                                        <p
+                                                            style="font-size: 14px; line-height: 22px; padding-bottom: 20px;">
+                                                            Lorem ipsum
+                                                            dolor, sit amet
+                                                            consectetur adipisicing elit. In deleniti sapiente, placeat
+                                                            omnis quasi aut.</p>
+                                                        <a href="#" class="button">Read More</a>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+            <!-- Social Icons -->
+            <tr style="font-size: 0;" class="icons">
+                <td>
+                    <table width="100%">
+                        <tr>
+                            <td style="padding: 10px 0px; text-align: center;">
+                                <a href="#"><img src="./images/fb.png" width="30" alt=""></a>
+                                <a href="#"><img src="./images/twitter.png" width="30" alt=""></a>
+                                <a href="#"><img src="./images/youtube.png" width="26" alt=""></a>
+                                <a href="#"><img src="./images/gplus.png" width="30" alt=""></a>
+                                <a href="#"><img src="./images/insta.png" width="27" alt=""></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="padding:0px 0px 10px; text-align: center;">
+                                <a href="#" style="color: #73a1ff; font-size: 14px;">Unsubscribe</a>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+            <!-- Bottom Border -->
+            <tr>
+                <td height="8" style="background-color:#171a1b; "></td>
+            </tr>
+
+
+        </table>
+    </center>
+</body>
+
+</html>
